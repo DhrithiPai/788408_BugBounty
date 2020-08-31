@@ -56,9 +56,8 @@ footer {
 }
 
 
-@media (max-width: 850px){
 
-}
+
 
 .u{
 	display:block;
@@ -84,3 +83,29 @@ footer {
 	color:#23424a;
 }
 
+@media screen and (max-width:450px){
+	.u,.v{
+		display:flex;
+		flex-direction: column;
+		float:none;
+		padding:2%;
+		height:100%;
+		width:100%;
+	}
+
+	.container{
+		margin-top:0px;
+		padding:5%;
+		background: #23424a;
+		color: white;
+		width: 100%;
+		height:20%;
+
+	}
+	.credentials{
+		text-align: center;
+		margin-right:30%;
+	}
+	
+
+}
