@@ -26,6 +26,7 @@ function setupSquares() {
     //the main event of the game
     for (var i = 0; i < squares.length; i++) {
         squares[i].style.backgroundColor = colors[i];
+        
         squares[i].style.cursor = "pointer";
 
         squares[i].addEventListener("click", function () {
@@ -38,6 +39,7 @@ function setupSquares() {
             }
             else {
                 messageDisplay.textContent = "Try Again!!";
+                squares[i].style.backgroundColor="black";
             }
             messageDisplay.style.color = "black";
         })
@@ -100,7 +102,7 @@ function setupButtons() {
 // for changing the color of each square
 function changeColor(color) {
     for (var i = 0; i < colors.length; i++)
-        squares[i].style.color = color;
+        squares[i].style.backgroundColor = color;
 }
 
 //for picking a random color
