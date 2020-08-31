@@ -4,7 +4,7 @@
 Lisa set out to make a color picker memory game. After coding seamlessly for a few hours, she finally hit several hurdles slowing down her progress. Can you help her get past them?
 
 ## What does this project do?
-Its a color picker project wherein the you have to guess the right color shown on the tile based on the RGB values.
+Its a color picker project wherein you have to guess the right color shown on the tile based on the RGB values.
 
 - The Demo video of the actual bug-free working website can be found [here](https://www.youtube.com/watch?v=oOTQyiusmGg).
 
