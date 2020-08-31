@@ -12,6 +12,6 @@
 ## Submission guidelines
 
 1. Please download zip of this repository or use `git clone` if you're well versed with git. (at your own risk, you may have to delete the `.git` folder before committing again). Please reach out to us if you face any issues.
-2. Make a private repository on github under any one of your accounts and keep making commits (or upload files) on a regular basis. This may be used to <b>resolve ties</b> later on. You may optionally add <b>X</b> as your codewatcher.
+2. Make a private repository on github under any one of your accounts and keep making commits (or upload files) on a regular basis. This may be used to <b>resolve ties</b> later on.
 3. Please don't change the folder structure under any circumstance. This will only make the evaluation of your code harder for us.
 4. Any submissions/commits post the deadline will result in a strict disqualification of your team.
