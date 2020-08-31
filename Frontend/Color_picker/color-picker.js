@@ -14,12 +14,6 @@ var squares = document.querySelectorAll(".square");
 var newGame = document.querySelector("#newColor");
 
 init();
-setupButtons();
-setupSquares();
-changeColor();
-pickColor();
-generateRandomColors();
-
 
 //complete operation
 function init() {
@@ -53,7 +47,7 @@ function setupSquares() {
 
 function setupButtons() {
     //when hovering the mouse over newcolor
-    newGame.addEventListener("mousehover", function () {
+    newGame.addEventListener("mouseover", function () {
         newGame.style.background = "rgb(2, 160, 194)";
         newGame.style.color = "white";
     })
