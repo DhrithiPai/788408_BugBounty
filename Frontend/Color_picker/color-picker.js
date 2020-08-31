@@ -39,7 +39,7 @@ function setupSquares() {
             }
             else {
                 messageDisplay.textContent = "Try Again!!";
-                squares[i].style.backgroundColor="black";
+                this.style.backgroundColor= "black";
             }
             messageDisplay.style.color = "black";
         })
