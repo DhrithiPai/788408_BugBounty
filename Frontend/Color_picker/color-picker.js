@@ -14,11 +14,18 @@ var squares = document.querySelectorAll(".square");
 var newGame = document.querySelector("#newColor");
 
 init();
+setupButtons();
+setupSquares();
+changeColor();
+pickColor();
+generateRandomColors();
+
 
 //complete operation
 function init() {
     setupButtons();
     setupSquares();
+
 }
 
 function setupSquares() {
@@ -73,6 +80,7 @@ function setupButtons() {
         //to change the background of the buttons
         easyBtn.classList.add("selected");
         hardBtn.classList.remove("selected");
+        
 
         resetGame(3);
         for (var i = 3; i <= 5; i++)
@@ -86,10 +94,11 @@ function setupButtons() {
         //to change the background of the buttons
         easyBtn.classList.remove("selected");
         hardBtn.classList.add("selected");
+        
 
         for (var i = 3; i <= 5; i++)
             squares[i].style.display = "block";
-        resetGame(6);
+        resetGame(3);
         difficultyLevel = "Hard";
     });
 }
